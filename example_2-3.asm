@@ -1,0 +1,3 @@
+CLR A
+MOV A,#9CH
+ADD A,#64H

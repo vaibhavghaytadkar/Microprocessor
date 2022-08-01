@@ -1,0 +1,11 @@
+MOV SP,#4FH
+SETB PSW.3
+MOV R0,#25H
+MOV R1,#0CH
+MOV R2,#05H
+MOV A,#0CEH
+
+push 8
+push 9 
+push 0ah
+push 0e0h

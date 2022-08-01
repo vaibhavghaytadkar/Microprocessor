@@ -1,0 +1,14 @@
+;Create a square wave of 50 duty cycle
+;on bit 0 of port 1
+
+;-----main--------
+loop:	CPL P1.0
+		ACALL delay
+		SJMP loop
+
+;-----delay-100ms----
+delay: 	MOV R0, #195
+next:	MOV R1, #0FFH
+again:	DJNZ R1, again
+		DJNZ R0, next
+		RET

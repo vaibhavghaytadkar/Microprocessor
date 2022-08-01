@@ -1,0 +1,7 @@
+;udsing register bank 3
+SETB PSW.3
+SETB PSW.4
+MOV R0,#05H
+MOV R1,#06H
+MOV R2,#07H
+MOV R3,#16

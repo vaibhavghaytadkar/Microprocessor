@@ -1,0 +1,6 @@
+POP 6
+POP 5
+POP 4
+POP 3
+POP 2
+POP 1

@@ -1,0 +1,5 @@
+CLR C
+MOV A, #02H
+ADD A, #04H
+MOV R2,A
+JMP $

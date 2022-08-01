@@ -1,0 +1,13 @@
+	CLR A
+	MOV R3,#6
+	MOV R0,#40H
+LOOP:
+	ADD A,@R0
+	INC R0
+	DJNZ R3,LOOP
+
+	MOV B,#6
+	DIV AB
+MOV P1,A
+
+	
